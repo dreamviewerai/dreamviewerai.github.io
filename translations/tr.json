@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "features": "Özellikler",
+    "showcase": "Galeri",
+    "about": "Hakkında"
+  },
+  "hero": {
+    "badge": "✨ AI Destekli Rüya Analizi",
+    "title": "Rüyalarınızı AI ile Keşfedin",
+    "subtitle": "DreamViewer, gelişmiş yapay zeka kullanarak rüyalarınızı yorumlamanıza, görselleştirmenize ve anlamanıza yardımcı olur",
+    "cta": "Başlayın",
+    "learnMore": "Daha Fazla Bilgi"
+  },
+  "features": {
+    "title": "Güçlü Özellikler",
+    "subtitle": "Rüyalarınızı keşfetmek için ihtiyacınız olan her şey",
+    "dreamInput": {
+      "title": "Rüya Girişi",
+      "description": "Rüyanızı güzel, sezgisel arayüzde basitçe tanımlayın. AI'mız bunu analiz edip yorumlayacaktır."
+    },
+    "aiInterpretation": {
+      "title": "AI Yorumlama",
+      "description": "Rüyalarınızın anlam, semboller, duygular ve görsel temsiller dahil detaylı analizini alın."
+    },
+    "dreamHistory": {
+      "title": "Rüya Geçmişi",
+      "description": "Tüm rüyalarınızı takip edin. Geçmiş rüyalarınızı istediğiniz zaman gözden geçirin, arayın ve tekrar ziyaret edin."
+    },
+    "dreamCategories": {
+      "title": "Akıllı Kategoriler",
+      "description": "Rüyalarınızı otomatik olarak lüsid, kabus, tekrarlayan veya diğer türler olarak kategorize edin."
+    },
+    "aiChat": {
+      "title": "AI ile Sohbet",
+      "description": "Rüyalarınıza daha derinlemesine dalmak ve kişiselleştirilmiş içgörüler almak için DreamViewer AI ile sohbet edin."
+    },
+    "visualization": {
+      "title": "Rüya Görselleştirme",
+      "description": "Rüya deneyimlerinizin AI tarafından oluşturulmuş görsel temsilleriyle rüyalarınızın hayata geçtiğini görün."
+    }
+  },
+  "showcase": {
+    "title": "DreamViewer'ı Aksiyonda Görün",
+    "subtitle": "DreamViewer'ın rüya deneyimlerinizi nasıl dönüştürdüğünü keşfedin",
+    "screenshot1": {
+      "title": "Rüyanızı Paylaşın",
+      "description": "Rüyanızı güzel arayüzümüzde tanımlayın, daha iyi yorumlama için ipuçları alın"
+    },
+    "screenshot2": {
+      "title": "Rüya Detayları ve Yorumlama",
+      "description": "Kategoriler, duygular ve ana sembollerle kapsamlı AI analizi alın"
+    },
+    "screenshot3": {
+      "title": "Rüya Geçmişi",
+      "description": "Güzel AI tarafından oluşturulmuş görselleştirmelerle kaydedilmiş tüm rüyalarınızı gözden geçirin"
+    },
+    "screenshot4": {
+      "title": "Sohbet Konuşmaları",
+      "description": "Rüya tartışmalarınızı kolay erişim için ayrı sohbet konularına organize edin"
+    },
+    "screenshot5": {
+      "title": "AI Rüya Yorumlayıcı Sohbeti",
+      "description": "Rüyalarınızı derinlemesine keşfetmek için AI ile doğal sohbetler yapın"
+    },
+    "screenshot6": {
+      "title": "Rüya Görselleştirme",
+      "description": "Çarpıcı AI tarafından oluşturulmuş görsellerle rüyalarınızın hayata geçtiğini görün"
+    }
+  },
+  "about": {
+    "title": "DreamViewer AI Hakkında",
+    "subtitle": "Yapay zeka destekli kişisel rüya yorumlayıcınız",
+    "description": "DreamViewer, rüyalarınızı keşfetmenize, yorumlamanıza ve görselleştirmenize yardımcı olan yenilikçi bir AI destekli uygulamadır. Gelişmiş yapay zeka kullanarak, rüya deneyimlerinizi anlamlı içgörülere ve güzel görselleştirmelere dönüştürüyoruz.",
+    "mission": "Misyonumuz, rüyalarınızın gizli anlamlarını anlamanıza, zaman içindeki kalıpları takip etmenize ve bilinçaltı zihniniz hakkında daha derin içgörüler kazanmanıza yardımcı olmaktır. Tek bir rüya hakkında meraklıysanız veya tekrarlayan temaları keşfetmek istiyorsanız, DreamViewer size rehberlik etmek için burada.",
+    "feature1": "AI destekli rüya yorumlama",
+    "feature2": "Güzel rüya görselleştirmeleri",
+    "feature3": "Tam rüya geçmişi takibi",
+    "feature4": "Akıllı kategorizasyon ve içgörüler"
+  },
+  "footer": {
+    "description": "DreamViewer AI - Yapay zeka destekli kişisel rüya yorumlayıcınız",
+    "links": {
+      "privacy": "Gizlilik Politikası",
+      "terms": "Kullanım Koşulları",
+      "contact": "İletişim"
+    },
+    "copyright": "© 2025 DreamViewer AI. Tüm hakları saklıdır."
+  }
+}
+

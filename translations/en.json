@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "showcase": "Showcase",
+    "about": "About"
+  },
+  "hero": {
+    "badge": "✨ AI-Powered Dream Analysis",
+    "title": "Explore Your Dreams with AI",
+    "subtitle": "DreamViewer helps you interpret, visualize, and understand your dreams using advanced artificial intelligence",
+    "cta": "Get Started",
+    "learnMore": "Learn More"
+  },
+  "features": {
+    "title": "Powerful Features",
+    "subtitle": "Everything you need to explore your dreams",
+    "dreamInput": {
+      "title": "Dream Input",
+      "description": "Simply describe your dream in beautiful, intuitive interface. Our AI will analyze and interpret it for you."
+    },
+    "aiInterpretation": {
+      "title": "AI Interpretation",
+      "description": "Get detailed analysis of your dreams including meaning, symbols, emotions, and visual representations."
+    },
+    "dreamHistory": {
+      "title": "Dream History",
+      "description": "Keep track of all your dreams. Browse, search, and revisit your past dreams anytime."
+    },
+    "dreamCategories": {
+      "title": "Smart Categories",
+      "description": "Automatically categorize your dreams as lucid, nightmare, recurring, or other types for easy organization."
+    },
+    "aiChat": {
+      "title": "Chat with AI",
+      "description": "Have conversations with DreamViewer AI to dive deeper into your dreams and get personalized insights."
+    },
+    "visualization": {
+      "title": "Dream Visualization",
+      "description": "See your dreams come to life with AI-generated visual representations of your dream experiences."
+    }
+  },
+  "showcase": {
+    "title": "See DreamViewer in Action",
+    "subtitle": "Discover how DreamViewer transforms your dream experiences",
+    "screenshot1": {
+      "title": "Share Your Dream",
+      "description": "Describe your dream in our beautiful interface with helpful tips for better interpretation"
+    },
+    "screenshot2": {
+      "title": "Dream Details & Interpretation",
+      "description": "Get comprehensive AI analysis with categories, emotions, and key symbols identified"
+    },
+    "screenshot3": {
+      "title": "Dream History",
+      "description": "Browse all your recorded dreams with beautiful AI-generated visualizations"
+    },
+    "screenshot4": {
+      "title": "Chat Conversations",
+      "description": "Organize your dream discussions into separate chat threads for easy access"
+    },
+    "screenshot5": {
+      "title": "AI Dream Interpreter Chat",
+      "description": "Have natural conversations with AI to explore your dreams in depth"
+    },
+    "screenshot6": {
+      "title": "Dream Visualization",
+      "description": "See your dreams come to life with stunning AI-generated imagery"
+    }
+  },
+  "about": {
+    "title": "About DreamViewer AI",
+    "subtitle": "Your personal dream interpreter powered by artificial intelligence",
+    "description": "DreamViewer is an innovative AI-powered application that helps you explore, interpret, and visualize your dreams. Using advanced artificial intelligence, we transform your dream experiences into meaningful insights and beautiful visualizations.",
+    "mission": "Our mission is to help you understand the hidden meanings in your dreams, track patterns over time, and gain deeper insights into your subconscious mind. Whether you're curious about a single dream or want to explore recurring themes, DreamViewer is here to guide you.",
+    "feature1": "AI-powered dream interpretation",
+    "feature2": "Beautiful dream visualizations",
+    "feature3": "Complete dream history tracking",
+    "feature4": "Smart categorization and insights"
+  },
+  "footer": {
+    "description": "DreamViewer AI - Your personal dream interpreter powered by artificial intelligence",
+    "links": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "contact": "Contact"
+    },
+    "copyright": "© 2025 DreamViewer AI. All rights reserved."
+  }
+}
+

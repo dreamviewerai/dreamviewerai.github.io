@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DreamViewer AI - Explore, interpret, and visualize your dreams using advanced artificial intelligence">
+    <title>DreamViewer AI - Explore Your Dreams with AI</title>
+    
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="resources/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="resources/icons/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="resources/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="resources/icons/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="resources/icons/android-chrome-512x512.png">
+    <link rel="manifest" href="resources/icons/site.webmanifest">
+    <meta name="theme-color" content="#4C81CA">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>DreamViewer AI</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" data-translate="nav.home">Home</a></li>
+                <li><a href="#features" data-translate="nav.features">Features</a></li>
+                <li><a href="#showcase" data-translate="nav.showcase">Showcase</a></li>
+                <li><a href="#about" data-translate="nav.about">About</a></li>
+                <li class="language-switcher">
+                    <select id="languageSelect" aria-label="Language selector">
+                        <option value="en">English</option>
+                        <option value="tr">Türkçe</option>
+                    </select>
+                </li>
+            </ul>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge" data-translate="hero.badge">✨ AI-Powered Dream Analysis</div>
+                <h1 class="hero-title" data-translate="hero.title">Explore Your Dreams with AI</h1>
+                <p class="hero-subtitle" data-translate="hero.subtitle">DreamViewer helps you interpret, visualize, and understand your dreams using advanced artificial intelligence</p>
+                <div class="hero-buttons">
+                    <a href="#" id="appStoreLink" class="btn btn-appstore" aria-label="Download on the App Store">
+                        <img src="resources/icons/en/appstore.svg" alt="Download on the App Store" id="appStoreIcon">
+                    </a>
+                    <a href="#features" class="btn btn-secondary" data-translate="hero.learnMore">Learn More</a>
+                </div>
+                <p class="hero-disclaimer">For entertainment purposes only</p>
+            </div>
+            <div class="hero-visual">
+                <div class="phone-mockup">
+                    <img src="resources/icons/app-icon.png" alt="DreamViewer AI" class="hero-app-icon" onerror="this.style.display='none';">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Features</span>
+                <h2 class="section-title" data-translate="features.title">Powerful Features</h2>
+                <p class="section-subtitle" data-translate="features.subtitle">Everything you need to explore your dreams</p>
+            </div>
+            <div class="bento-grid">
+                <div class="bento-item">
+                    <div class="bento-content">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title" data-translate="features.aiInterpretation.title">AI Interpretation</h3>
+                        <p class="feature-description" data-translate="features.aiInterpretation.description">Get detailed analysis of your dreams including meaning, symbols, emotions, and visual representations.</p>
+                    </div>
+                </div>
+                <div class="bento-item">
+                    <div class="bento-content">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2L2 7L12 12L22 7L12 2Z"/>
+                                <path d="M2 17L12 22L22 17"/>
+                                <path d="M2 12L12 17L22 12"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title" data-translate="features.dreamInput.title">Dream Input</h3>
+                        <p class="feature-description" data-translate="features.dreamInput.description">Simply describe your dream in beautiful, intuitive interface.</p>
+                    </div>
+                </div>
+                <div class="bento-item">
+                    <div class="bento-content">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+                                <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title" data-translate="features.visualization.title">Dream Visualization</h3>
+                        <p class="feature-description" data-translate="features.visualization.description">See your dreams come to life with AI-generated visuals.</p>
+                    </div>
+                </div>
+                <div class="bento-item">
+                    <div class="bento-content">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2v20M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title" data-translate="features.dreamHistory.title">Dream History</h3>
+                        <p class="feature-description" data-translate="features.dreamHistory.description">Keep track of all your dreams anytime.</p>
+                    </div>
+                </div>
+                <div class="bento-item">
+                    <div class="bento-content">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title" data-translate="features.aiChat.title">Chat with AI</h3>
+                        <p class="feature-description" data-translate="features.aiChat.description">Have conversations with DreamViewer AI to dive deeper into your dreams and get personalized insights.</p>
+                    </div>
+                </div>
+                <div class="bento-item">
+                    <div class="bento-content">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title" data-translate="features.dreamCategories.title">Smart Categories</h3>
+                        <p class="feature-description" data-translate="features.dreamCategories.description">Automatically categorize your dreams.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Showcase Section -->
+    <section id="showcase" class="showcase">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">App Showcase</span>
+                <h2 class="section-title" data-translate="showcase.title">See DreamViewer in Action</h2>
+                <p class="section-subtitle" data-translate="showcase.subtitle">Discover how DreamViewer transforms your dream experiences</p>
+            </div>
+            <div class="showcase-carousel">
+                <div class="showcase-item">
+                    <div class="showcase-image">
+                        <img src="resources/screenshots/screenshot-1.png" alt="Dream Input Interface" class="showcase-screenshot" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="showcase-placeholder" style="display: none;">
+                            <div class="showcase-content-preview">
+                                <div class="preview-header"></div>
+                                <div class="preview-body">
+                                    <div class="preview-line"></div>
+                                    <div class="preview-line short"></div>
+                                    <div class="preview-line"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="showcase-caption">
+                        <h3 data-translate="showcase.screenshot1.title">Share Your Dream</h3>
+                        <p data-translate="showcase.screenshot1.description">Describe your dream in our beautiful interface with helpful tips for better interpretation</p>
+                    </div>
+                </div>
+                <div class="showcase-item">
+                    <div class="showcase-image">
+                        <img src="resources/screenshots/screenshot-2.png" alt="Dream Details and Interpretation" class="showcase-screenshot" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="showcase-placeholder" style="display: none;">
+                            <div class="showcase-content-preview">
+                                <div class="preview-header"></div>
+                                <div class="preview-body">
+                                    <div class="preview-line"></div>
+                                    <div class="preview-line short"></div>
+                                    <div class="preview-line"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="showcase-caption">
+                        <h3 data-translate="showcase.screenshot2.title">Dream Details & Interpretation</h3>
+                        <p data-translate="showcase.screenshot2.description">Get comprehensive AI analysis with categories, emotions, and key symbols identified</p>
+                    </div>
+                </div>
+                <div class="showcase-item">
+                    <div class="showcase-image">
+                        <img src="resources/screenshots/screenshot-3.png" alt="Dream History" class="showcase-screenshot" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="showcase-placeholder" style="display: none;">
+                            <div class="showcase-content-preview">
+                                <div class="preview-header"></div>
+                                <div class="preview-body">
+                                    <div class="preview-line"></div>
+                                    <div class="preview-line short"></div>
+                                    <div class="preview-line"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="showcase-caption">
+                        <h3 data-translate="showcase.screenshot3.title">Dream History</h3>
+                        <p data-translate="showcase.screenshot3.description">Browse all your recorded dreams with beautiful AI-generated visualizations</p>
+                    </div>
+                </div>
+                <div class="showcase-item">
+                    <div class="showcase-image">
+                        <img src="resources/screenshots/screenshot-4.png" alt="Chat Conversations" class="showcase-screenshot" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="showcase-placeholder" style="display: none;">
+                            <div class="showcase-content-preview">
+                                <div class="preview-header"></div>
+                                <div class="preview-body">
+                                    <div class="preview-line"></div>
+                                    <div class="preview-line short"></div>
+                                    <div class="preview-line"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="showcase-caption">
+                        <h3 data-translate="showcase.screenshot4.title">Chat Conversations</h3>
+                        <p data-translate="showcase.screenshot4.description">Organize your dream discussions into separate chat threads for easy access</p>
+                    </div>
+                </div>
+                <div class="showcase-item">
+                    <div class="showcase-image">
+                        <img src="resources/screenshots/screenshot-5.png" alt="AI Chat Interface" class="showcase-screenshot" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="showcase-placeholder" style="display: none;">
+                            <div class="showcase-content-preview">
+                                <div class="preview-header"></div>
+                                <div class="preview-body">
+                                    <div class="preview-line"></div>
+                                    <div class="preview-line short"></div>
+                                    <div class="preview-line"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="showcase-caption">
+                        <h3 data-translate="showcase.screenshot5.title">AI Dream Interpreter Chat</h3>
+                        <p data-translate="showcase.screenshot5.description">Have natural conversations with AI to explore your dreams in depth</p>
+                    </div>
+                </div>
+                <div class="showcase-item">
+                    <div class="showcase-image">
+                        <img src="resources/screenshots/screenshot-6.png" alt="Dream Visualization" class="showcase-screenshot" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="showcase-placeholder" style="display: none;">
+                            <div class="showcase-content-preview">
+                                <div class="preview-header"></div>
+                                <div class="preview-body">
+                                    <div class="preview-line"></div>
+                                    <div class="preview-line short"></div>
+                                    <div class="preview-line"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="showcase-caption">
+                        <h3 data-translate="showcase.screenshot6.title">Dream Visualization</h3>
+                        <p data-translate="showcase.screenshot6.description">See your dreams come to life with stunning AI-generated imagery</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="about" class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title" data-translate="about.title">About DreamViewer AI</h2>
+                <p class="cta-description" data-translate="about.description">DreamViewer is an innovative AI-powered application that helps you explore, interpret, and visualize your dreams. Using advanced artificial intelligence, we transform your dream experiences into meaningful insights and beautiful visualizations.</p>
+                <div class="cta-features">
+                    <div class="cta-feature">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                            <path d="M5 13l4 4L19 7"/>
+                        </svg>
+                        <span data-translate="about.feature1">AI-powered dream interpretation</span>
+                    </div>
+                    <div class="cta-feature">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                            <path d="M5 13l4 4L19 7"/>
+                        </svg>
+                        <span data-translate="about.feature2">Beautiful dream visualizations</span>
+                    </div>
+                    <div class="cta-feature">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                            <path d="M5 13l4 4L19 7"/>
+                        </svg>
+                        <span data-translate="about.feature3">Complete dream history tracking</span>
+                    </div>
+                </div>
+                <div class="cta-buttons">
+                    <a href="#" id="appStoreLink2" class="btn btn-appstore-large" aria-label="Download on the App Store">
+                        <img src="resources/icons/en/appstore.svg" alt="Download on the App Store" id="appStoreIcon2">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>DreamViewer AI</h3>
+                    <p data-translate="footer.description">DreamViewer AI - Your personal dream interpreter powered by artificial intelligence</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="content/en/privacy-policy.html" data-translate="footer.links.privacy" id="privacyLink">Privacy Policy</a></li>
+                        <li><a href="content/en/terms-of-service.html" data-translate="footer.links.terms" id="termsLink">Terms of Service</a></li>
+                        <li><a href="content/en/kvkk.html" id="kvkkLink">KVKK</a></li>
+                        <li><a href="mailto:noreply+dreamviewer@roxyapps.net" data-translate="footer.links.contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-translate="footer.copyright">© 2025 DreamViewer AI. All rights reserved.</p>
+                <p style="margin-top: 0.5rem; font-size: 0.85rem; opacity: 0.7;">Dream interpretations are for entertainment purposes only.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
